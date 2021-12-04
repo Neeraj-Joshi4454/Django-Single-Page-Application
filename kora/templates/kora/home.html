@@ -1,0 +1,305 @@
+{% extends 'kora/main.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<div class="container intro" id="intro">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{% static 'images/img1.jpg' %}" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-6 introtext">
+            <h1>Kora is here to help you grow your online shop</h1>
+            <p>We believe in sustainable and trustful ecommerce which offers opportunities for both shop owners and customers. Our entire experience and passion can be found in Kora and you are invited to use it for your business</p>
+            <button class="headbtn1 signup2"><a href="#">Sign up</a></button>
+        </div>
+    </div>
+</div>
+
+<!-- Features section start -->
+<div class="features" id="features">
+    <div class="featureinfo">
+        <h1 class="featureheading">Check out all the features</h1>
+        <p class="featurepara">The features built into Kora were designed to help online shop owners present their merchandise and find more customers</p>
+    </div>
+    <div class="container featurecontainer">
+        <div class="row">
+            <div class="col-md-4 featurerow">
+                <div class="card featurecard" style="width: 18rem;">
+                    <div class="parenticon">
+                        <div class="icondiv">
+                            <i class="fas fa-headphones-alt fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="card-body card-b">
+                      <h5 class="card-title">Product Marketing On Social Platforms</h5>
+                      <p class="card-text">Besides regular product display options Kora has multiple functions for social networks integration</p>
+                      <a href="#" class="featureleanmore">Learn more <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 featurerow">
+                <div class="card featurecard" style="width: 18rem;">
+                    <div class="parenticon">
+                        <div class="icondiv">
+                            <i class="far fa-clipboard fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="card-body card-b">
+                      <h5 class="card-title">Branding And Strategy Basic Guidelines</h5>
+                      <p class="card-text">To build a solid foundation for your online shop you need a strong brand and a bulletproof strategy</p>
+                      <a href="#" class="featureleanmore">Learn more <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 featurerow">
+                <div class="card featurecard" style="width: 18rem;">
+                    <div class="parenticon">
+                        <div class="icondiv">
+                            <i class="far fa-comments fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="card-body card-b">
+                      <h5 class="card-title">Design & Development Advanced Services</h5>
+                      <p class="card-text">Our team of competent designers and developers are able to create great designs and structured code</p>
+                      <a href="#" class="featureleanmore">Learn more <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Features section end -->
+
+<!-- detail sectoin start -->
+    <div class="container-fluid details" id="details">
+        <div class="container detailshead">
+            <h1>Start a successful ecommmerce business<br>in no more than 3 easy steps with Kora</h1>
+            <p>To build a solid foundation for your online shop you need a strong brand and a bulletproof strategy. You can<br>rely on our experience to create a beautiful and efficient online shop that offers benefits for both the shop<br>brand and loyal customers</p>
+        </div>
+
+        <div class="container">
+            <div class="row detailrow">
+                <div class="col-md-6 detailcol">
+                    <img src="{% static 'images/detail1.png' %}" class="img-fluid" alt="detailsimg">
+                </div>
+                <div class="col-md-6 detailcol">
+                    <div class="detailstep">Step 1</div>
+                    <h1>Figure out what to sell</h1>
+                    <p>Delivering powerful brands for popular shops while creating beautiful concepts and evocative logos. Use the opportunity to prepare complete style guides</p>
+                    <button class="headbtn1">Lightbox</button>
+                </div>
+            </div>
+            <div class="row detailrow">
+                <div class="col-md-6 detailcol">
+                    <div class="detailstep">Step 2</div>
+                    <h1>Analyze the marketplace</h1>
+                    <p>Our team of competent designers and developers are able to create beautiful designs and structured code that will serve your ecommerce project on the long term
+                        <ul class="detaillist text-muted">
+                            <li>Delivering powerful brands for popular shops</li>
+                            <li>Creating beautiful concepts and evocative logos</li>
+                            <li>Preparing complete branding guides and styles</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-6 detailcol">
+                    <img src="{% static 'images/detail2.png' %}" class="img-fluid" alt="detailsimg">
+                </div>
+            </div>
+            <div class="row detailrow pb-5">
+                <div class="col-md-6 detailcol">
+                    <img src="{% static 'images/detail3.png' %}" class="img-fluid" alt="detailsimg">
+                </div>
+                <div class="col-md-6 detailcol">
+                    <div class="detailstep">Step 3</div>
+                    <h1>Create your shop account</h1>
+                    <p>We can deliver a comprehensive marketing plan and then execute it down to the smallest details. To start using Kora just sign up and submit your details</p>
+                    <button class="headbtn1">Sign up now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- detail sectoin end -->
+
+<!-- testomonials start -->
+
+<div class="container-fluid testo">
+    <div class="testohead">
+        <h1>Few words from shop owners</h1>
+        <p>You can read below a few testimonials from satisfied shop owners. Of course there are also some unhappy ones but they're not here</p>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide pb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="container testocarcontainer">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="testocard">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt placeat! Veniam consectetur accusamus magnam dolores fuga ad quis, illo quo quos ea quibusdam, molestiae adipisci alias consequatur blanditiis nulla, incidunt dolor nostrum aliquid! Esse provident modi vero totam asperiores ex? Facere distinctio dolorum maxime dignissimos porro. Quis, iste optio.</p>
+                              <div class="testocardinfo">
+                                  <div class="testocardimg">
+                                      <img src="{% static 'images/person.jpg' %}" alt="#">
+                                  </div>
+                                  <div class="testocardimgname">
+                                      <h5>Nicolas Richer</h5>
+                                      <p>Manager-Firstup</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="testocard">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt placeat! Veniam consectetur accusamus magnam dolores fuga ad quis, illo quo quos ea quibusdam, molestiae adipisci alias consequatur blanditiis nulla, incidunt dolor nostrum aliquid! Esse provident modi vero totam asperiores ex? Facere distinctio dolorum maxime dignissimos porro. Quis, iste optio.</p>
+                              <div class="testocardinfo">
+                                  <div class="testocardimg">
+                                      <img src="{% static 'images/person.jpg' %}" alt="#">
+                                  </div>
+                                  <div class="testocardimgname">
+                                      <h5>Nicolas Richer</h5>
+                                      <p>Manager-Firstup</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container testocarcontainer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="testocard">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt placeat! Veniam consectetur accusamus magnam dolores fuga ad quis, illo quo quos ea quibusdam, molestiae adipisci alias consequatur blanditiis nulla, incidunt dolor nostrum aliquid! Esse provident modi vero totam asperiores ex? Facere distinctio dolorum maxime dignissimos porro. Quis, iste optio.</p>
+                            <div class="testocardinfo">
+                                <div class="testocardimg">
+                                    <img src="{% static 'images/person.jpg' %}" alt="#">
+                                </div>
+                                <div class="testocardimgname">
+                                    <h5>Nicolas Richer</h5>
+                                    <p>Manager-Firstup</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testocard">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt placeat! Veniam consectetur accusamus magnam dolores fuga ad quis, illo quo quos ea quibusdam, molestiae adipisci alias consequatur blanditiis nulla, incidunt dolor nostrum aliquid! Esse provident modi vero totam asperiores ex? Facere distinctio dolorum maxime dignissimos porro. Quis, iste optio.</p>
+                            <div class="testocardinfo">
+                                <div class="testocardimg">
+                                    <img src="{% static 'images/person.jpg' %}" alt="#">
+                                </div>
+                                <div class="testocardimgname">
+                                    <h5>Nicolas Richer</h5>
+                                    <p>Manager-Firstup</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container testocarcontainer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="testocard">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt placeat! Veniam consectetur accusamus magnam dolores fuga ad quis, illo quo quos ea quibusdam, molestiae adipisci alias consequatur blanditiis nulla, incidunt dolor nostrum aliquid! Esse provident modi vero totam asperiores ex? Facere distinctio dolorum maxime dignissimos porro. Quis, iste optio.</p>
+                            <div class="testocardinfo">
+                                <div class="testocardimg">
+                                    <img src="{% static 'images/person.jpg' %}" alt="#">
+                                </div>
+                                <div class="testocardimgname">
+                                    <h5>Nicolas Richer</h5>
+                                    <p>Manager-Firstup</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="testocard">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, deserunt placeat! Veniam consectetur accusamus magnam dolores fuga ad quis, illo quo quos ea quibusdam, molestiae adipisci alias consequatur blanditiis nulla, incidunt dolor nostrum aliquid! Esse provident modi vero totam asperiores ex? Facere distinctio dolorum maxime dignissimos porro. Quis, iste optio.</p>
+                            <div class="testocardinfo">
+                                <div class="testocardimg">
+                                    <img src="{% static 'images/person.jpg' %}" alt="#">
+                                </div>
+                                <div class="testocardimgname">
+                                    <h5>Nicolas Richer</h5>
+                                    <p>Manager-Firstup</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<!-- testomonials end -->
+
+
+<!-- footer start -->
+
+    <div class="container-fluid footer">
+        <footer>
+            <div class="footer-head">
+                <h1>Subscribe And Follow Us</h1>
+                <p>Be part of the story and follow us on Twitter via @name and subscribe to the newsletter for news and updates about our workshops</p>
+                <form action="#">
+                    <div class="input-group mb-3">
+                        <input type="text" class="email" placeholder="Email address" aria-label="Recipient's username" aria-describedby="button-addon2"> 
+                        <button class="btn btn-outline-secondary emailbtn" type="button" id="button-addon2">Subscribe</button>
+                      </div>
+                </form>
+            </div>
+            <div class="footerinfo">
+                <div class="container footer-col">
+                    <div class="row">
+                        <div class="col-md-4 footer-row">
+                            <h1>About Kora</h1>    
+                            <p>Kora is a SaaS app website Bootstrap HTML template packed with features like logo slider, details lightbox, testimonial slider dropdown</p>
+                        </div>
+                        <div class="col-md-4 footer-row">
+                            <h1>links</h1>
+                            <p>Important:<a href="#">Terms & Conditions,</a><a href="#">Privacy Policy</a> <br>
+                               Useful:<a href="#">Colorpicker,</a><a href="#">Icon Library,</a><a href="#">Illustrations</a>
+                               Menu:<a href="/">Home,</a><a href="#intro">Intro,</a><a href="#features">Features,</a><a href="#details">Details</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 footercolumn3 footer-row">
+                            <div class="footericon">
+                                <div class="footericondiv">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="footericondiv">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="footericondiv">
+                                    <i class="fab fa-pinterest-square"></i>
+                                </div>
+                                <div class="footericondiv">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                            </div>
+                            <p>We would love to hear from you <br><b> <a href="#">contact@site.com</a></b></p>
+                        </div>
+                    </div>
+                    <p class=" text-center text-muted">All right reserved for kora, &copy;2021-22</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<!-- footer end -->
+
+{% endblock content %}
